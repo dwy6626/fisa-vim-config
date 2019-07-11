@@ -33,6 +33,6 @@ fontforge -script fontpatcher/fontpatcher Monaco.ttf
 
 - Install the new font `Monaco-Powerline.tff` to system
 
-- Apply the iTerm2 config: [zsh.json](./zsh.json)
+- Apply the iTerm2 config: [zsh.json](./zsh.json), refer to [this issue](https://gitlab.com/gnachman/iterm2/issues/7533)
 
 Please also refer to the original [readme file](./fontpatcher/README.rst)
