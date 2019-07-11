@@ -102,7 +102,7 @@ for font_path in args.fonts:
 	#
 	# 0x00-0x17f is the Latin Extended-A range
 	# 0x2500-0x2600 is the box drawing range
-	for glyph in range(0x00, 0x17f) + range(0x2500, 0x2600):
+	for glyph in list(range(0x00, 0x17f)) + list(range(0x2500, 0x2600)):
 		try:
 			(xmin, ymin, xmax, ymax) = font[glyph].boundingBox()
 		except TypeError:
